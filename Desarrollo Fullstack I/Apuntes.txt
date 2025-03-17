@@ -1,1 +1,8 @@
-
+Apuntes Clase 17-03-2025:
+Minuta de equipo - Daily Scrum Meeting
+  En scrum, durante el desarrollo del Sprint, el equipo mantiene una reunión diaria llamada "daily scrum". Estas reuniones se realizan en el mismo lugar y a la misma hora cada día, y están     limitadas a 15 minutos.
+    Definir el contexto del trabajo del día.
+    Mantener la reunión breve y al punto.
+    Resolver impedimentos rápidamente.
+    El objetivo principal es mantener la sincronización del equipo y asegurar que cualquier impedimento se resuelva rápidamente para no retrasar el progreso.
+Herramientas a utilizar para la actividad: Miro y Trello.
