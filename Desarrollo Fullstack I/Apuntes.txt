@@ -11,4 +11,32 @@ Herramientas a utilizar para la actividad: Miro y Trello.
 Apuntes clase 25-03-2025
 ---Actividad pre-formativa---
 
+Apuntes clase 14-04-2025
 
+Segunda unidad: PPT-1 HTTP y REST
+Contenidos: 1.¿Qué es la web y cómo funciona?; 2.Conceptos de HTTP; 3.Métodos y respuestas de HTTP; 4.REST;5.¿Qué son las APIs?;6.Buenas prácticas en APIs REST;7.POSTMAN;8.Realizar actividades;9.Reflexión.
+1.Es una red global de información que permite el acceso a documentos y recursos a través de internet. Consta de páginas web, sitios web, servidores web y otros.
+2.HTTP, es un protocolo de transferencia de hipertexto.
+HTML, es un lenguaje de marcado utilizado para crear y estructurar páginas web. Está diseñador principalmente para la presentación y navegación de contenido en la web. HTML utiliza principalmente los métodos HTTP,GET y POST.
+3.Conceptos de HTTP, es el protocolo utilizado por la web de transferencia de documentos y datos. Entre los métodos de HTTP encontramos GET, POST, PUT, DELETE, HEAD, OPTIONS y PATCH.
+  -Get se utiliza para solicitar datos. El método POST se utiliza para enviar datos al servidor con el fin de crear un nuevo recurso. Se utiliza para enviar formularios,etc. El método PUT se utiliza para reemplazar por completo un recurso existente en el servidor con un nuevo conjunto de datos. El método PATCH se utiliza para realizar una actualización parcial de un recurso existente en el servidor. El método DELETE se utiliza para eliminar un recurso del servidor, no se incluyen datos en el cuero de la solicitud.
+El método HEAD es similar al método GET, pero en lugar de devolver el cuerpo de la respuesta, solo devuelve los encabezados de la respuesta.
+El método OPTIONS se utiliza para solicitar...
+Respuestas en HTTP: Son mensajes enviados por el servidor al cliente en respuesta a una solicitud HTTP.
+Códigos de estado HTTP: Se encuentran entre un rango de valores que comienza en 100 y culmina en 500
+  -1xx:Códigos informativos
+  -2xx:Códigos de éxito
+  -3xx:Códigos de redirección
+  -4xx:Códigos de error de cliente
+  -5xx:Códigos de error de servidor
+APIs; es una interfaz que permite que dos aplicaciones se comuniquen entre sí. 
+Formato de datos en APIs: JSON(JavaScript Object Notation), XML(eXtensible Markup Language).
+Buenas prácticas para el diseño de APIs REST: Simplicidad, escalabilidad, flexibilidad, interoperabilidad.
+  Versionado de la API: /api/vi/libros || /api/v2.1/personas || /api/v2.2beta/boletas || /api/v2024/ventas
+  Nombres descriptivos y consistentes (usando sustantivos en plural para los nombres de los recursos).
+  Nomenclatura de API para recursos con nombres de múltiples palabras.
+  Uso correcto de verbos HTTP.
+  Uso correcto de códigos de estado HTTP.
+  Parámetros de ruta y consulta: ejemplo: /api/v1/products/{id}
+  Jerarquía y anidamiento lógico: Organiza los endpoints para reflejar relaciones entre recursos.
+Postman es una herramienta de desarrollo de software utilizada para probas APIs.
